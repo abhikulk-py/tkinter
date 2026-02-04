@@ -31,5 +31,8 @@ label.place(x=100, y=100)
 label1 = Label(window, width=10, height=5, bg="blue")
 label1.place(x=300, y=500)
 
+button = Button(window, text="Click Me", command=window.destroy)
+button.pack()
+
 
 window.mainloop()
